@@ -1,7 +1,7 @@
 /* css */
 
 @font-face {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     /* font-style: normal; */
     /* font-weight: 400; */
     src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
@@ -71,7 +71,7 @@ body {
 
     .guest {
         font-size: 3em;
-        font-weight: 550;
+        font-weight: 5;
     }
 
     .main {
