@@ -1,2 +1,81 @@
-
 /* css */
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
+}
+
+body {
+    font-family: "Source Sans Pro";
+    background-color: #DAE1D3;
+}
+
+.black {
+    color: #000000;
+}
+
+.top {
+    padding-top: 40px;
+}
+
+.svg-container {
+    resize: both;
+    overflow: auto;
+}
+
+
+.details {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.guest {
+    font-size: 2em;
+    font-weight: 350;
+}
+
+.main {
+    font-size: 3rem;
+    font-weight: 450;
+    line-height: 8rem;
+
+}
+
+
+
+@media (min-width:768px) {
+    .details {
+        font-size: 2em;
+        font-weight: 350;
+    }
+
+    .guest {
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+    .main {
+        font-size: 4rem;
+        font-weight: 450;
+
+    }
+}
+
+
+@media (min-width:992px) {
+    .details {
+        font-size: 2em;
+    }
+
+    .guest {
+        font-size: 3em;
+        font-weight: 550;
+    }
+
+    .main {
+        font-size: 8rem;
+        font-weight: 640;
+    }
+}
